@@ -1,31 +1,31 @@
 import React from 'react';
-import TopBar from './components/TopBar';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import AppointmentSearch from './components/AppointmentSearch';
-import About from './components/About';
-import Specialties from './components/Specialties';
-import Doctors from './components/Doctors';
-import Testimonials from './components/Testimonials';
-import CTASection from './components/CTASection';
-import Footer from './components/Footer';
+import { HashRouter as Router, Routes, Route, ScrollRestoration } from 'react-router-dom';
+import { Layout } from './components/Layout';
+import DoctorList from './pages/DoctorList';
+import DoctorDetail from './pages/DoctorDetail';
+
+// ScrollToTop component to handle scrolling on route change
+const ScrollToTop = () => {
+    const { pathname } = React.useMemo(() => window.location, []);
+    
+    React.useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
+    return null;
+}
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <TopBar />
-      <Header />
-      <main>
-        <Hero />
-        <AppointmentSearch />
-        <About />
-        <Specialties />
-        <Doctors />
-        <Testimonials />
-        <CTASection />
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<DoctorList />} />
+          <Route path="/doktorlar" element={<DoctorList />} />
+          <Route path="/doktorlar/:slug" element={<DoctorDetail />} />
+        </Routes>
+      </Layout>
+    </Router>
   );
 };
 
