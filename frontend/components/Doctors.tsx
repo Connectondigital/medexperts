@@ -5,19 +5,19 @@ const doctors = [
     name: "Prof. Dr. Nilüfer Galip Çelik",
     title: "Çocuk Sağlığı, Alerji ve İmmünoloji",
     description: "Çocukluk çağı alerjik hastalıkları ve immünoloji alanında akademik ve klinik uzmanlık.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBLQoutldDU9zXrrgnQQ4BvXjVHzn5KNjpDj4N44CGFFdqNsfdRSLtiLiYbexN70bBhL6tjxwOi5Ae939_l0M5IDHW6j2buCx0NkW6JkHzr6TQbnzNLohaRUYNqq1gLwDaSTqWtK4GsZJM_VXyyi2BIbVsSviJL2KPK-uvP6CXJ9_y-euvy2JAlz7TtSBIBv4Ew64el18c3FnaGLmsQBNI7yEKaCoxzucAgQVSr2kfmQnU4iBZApo9l6YycPeFmJh_X3ANJxqPaFW0"
+    image: "/images/doctors/nilufer.jpg"
   },
   {
     name: "Prof. Dr. Arzu Babayiğit",
     title: "Çocuk Alerji, Astım ve İmmünoloji",
     description: "Alerjik hastalıklar, astım, besin ve ilaç alerjileri ile çocuk sağlığı hastalıklarının tanı ve tedavisi.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCW2OAXkVFk_J2SPCmtRSsDPMo4Mp0DNQyn4Y91hkuZmPqUcbwjvg367bJe2DGkQhjFHkDgWUIAn_pwXfF7rCTNeBcYGTxCQJh3X3w2gp6CHicDWAX9FhRMDsvhONoTui0CODeWP6XD-anvxBRxe0UX4f5ikhMJQYhBAsqZQyyPi7nRkWqVEkHay3PVADGM4fbjnUWyUovJTKkbvRVsyMpf6vaVghmIFupyoeH974ct8YOrN6HEKXx5OSY9TLK6crrco67SNuC50sg"
+    image: "/images/doctors/arzu.jpg"
   },
   {
     name: "Doç. Dr. Senem Ertuğrul Mut",
     title: "Nöroloji & Medikal Estetik",
     description: "Migren, demans, Parkinson, MS, epilepsi ve nörolojik girişimsel uygulamalar.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuC5by1_6kerF_vJdZO5KnZ-pbErv8wYuNbIVI_oD9BZirpBjtnX6ClxG-Yp6RmAdq9wO84oDDm7s29EGGGNOpjJZR02C6dGJADve7SlhXnQbOLlcPiIyfGhEQWea8JvNIeru_yGhXJGEIS5r922K0iTRTf5wuMhYSunhc7KfYYZioNhgos97keiqlLHxZWlbsMK35cR_nPqCyTyHPfgLLD4hsn5LZ831zjayl6T8IEG3_WovFss6J-i1XtT9RLkf0O-xo25tTUNJtg"
+    image: "/images/doctors/senem.jpg"
   }
 ];
 
