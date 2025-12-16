@@ -1,37 +1,38 @@
-import { Doctor, ClinicInfo } from './types';
+import type { Doctor, ClinicInfo } from "./types";
 
 export const clinicInfo: ClinicInfo = {
   phone: "+90 548 858 85 86",
   email: "medexpertshealthcare@gmail.com",
-  address: "Çubuklu sokak Blue Palm Residence A blok kat 2 daire 20-21 Doganköy, Girne, Kyrenia, Cyprus 99300",
+  address:
+    "Çubuklu sokak Blue Palm Residence A blok kat 2 daire 20-21 Doganköy, Girne, Kyrenia, Cyprus 99300",
   instagram: "medexpertshealthcare",
   hours: {
     weekdays: "09:00 - 18:00",
-    weekend: "Kapalı"
-  }
+    weekend: "Kapalı",
+  },
 };
 
 export const doctors: Doctor[] = [
   {
-    id: '1',
-    slug: 'prof-dr-nilufer-galip-celik',
-    name: 'Nilüfer Galip Çelik',
-    title: 'Prof. Dr.',
-    fullTitle: 'Profesör Doktor',
-    specialty: 'Çocuk Sağlığı ve Hastalıkları',
-    fullSpecialty: 'Çocuk Sağlığı, Alerji ve İmmünoloji Uzmanı',
+    id: "1",
+    slug: "prof-dr-nilufer-galip-celik",
+    name: "Nilüfer Galip Çelik",
+    title: "Prof. Dr.",
+    fullTitle: "Profesör Doktor",
+    specialty: "Çocuk Sağlığı ve Hastalıkları",
+    fullSpecialty: "Çocuk Sağlığı, Alerji ve İmmünoloji Uzmanı",
     rating: 5,
     reviewCount: 120,
-    image: '/images/doctors/nilufer.jpg',
+    image: "/images/doctors/nilufer.jpg",
     yearsOfExperience: 20,
-    education: 'Hacettepe Üniversitesi Tıp Fakültesi',
-    expertise: 'Çocuk Alerji ve İmmünoloji',
-    languages: ['Türkçe', 'İngilizce'],
-    location: 'Girne, KKTC',
+    education: "Hacettepe Üniversitesi Tıp Fakültesi",
+    expertise: "Çocuk Alerji ve İmmünoloji",
+    languages: ["Türkçe", "İngilizce"],
+    location: "Girne, KKTC",
     about: [
       "Prof. Dr. Nilüfer Galip Çelik, çocuk sağlığı ve hastalıkları alanında 20 yılı aşkın akademik ve klinik deneyime sahip seçkin bir hekimdir. Hacettepe Üniversitesi Tıp Fakültesi mezunu olan Prof. Dr. Çelik, uzmanlık eğitimini Gazi Üniversitesi Tıp Fakültesi'nde tamamlamış, ardından çocuk alerjisi ve immünolojisi alanında yan dal uzmanlığını almıştır.",
       "Özellikle çocukluk çağı alerjileri, astım, egzama ve besin alerjileri konusunda ulusal ve uluslararası düzeyde çalışmaları bulunan Prof. Dr. Çelik, modern tanı ve tedavi yöntemlerini kullanarak hastalarına en güncel sağlık hizmetini sunmaktadır.",
-      "Hasta odaklı yaklaşımı ve akademik birikimiyle MEDEXPERTS Healthcare bünyesinde çocuk sağlığı, alerji ve immünoloji kliniğinde hizmet vermeye devam etmektedir."
+      "Hasta odaklı yaklaşımı ve akademik birikimiyle MEDEXPERTS Healthcare bünyesinde çocuk sağlığı, alerji ve immünoloji kliniğinde hizmet vermeye devam etmektedir.",
     ],
     specialties: [
       "Çocukluk Çağı Astımı",
@@ -39,67 +40,68 @@ export const doctors: Doctor[] = [
       "Besin Alerjileri",
       "Atopik Dermatit (Egzama)",
       "İlaç Alerjileri",
-      "Bağışıklık Yetmezlikleri"
+      "Bağışıklık Yetmezlikleri",
     ],
     timeline: [
       {
-        period: '2022 - Günümüz',
-        title: 'Prof. Dr. - Çocuk Alerji Uzmanı',
-        institution: 'Medexperts Healthcare',
-        type: 'work'
+        period: "2022 - Günümüz",
+        title: "Prof. Dr. - Çocuk Alerji Uzmanı",
+        institution: "Medexperts Healthcare",
+        type: "work",
       },
       {
-        period: '2015 - 2022',
-        title: 'Klinik Şefi',
-        institution: 'Dr. Burhan Nalbantoğlu Hastanesi',
-        type: 'work'
+        period: "2015 - 2022",
+        title: "Klinik Şefi",
+        institution: "Dr. Burhan Nalbantoğlu Hastanesi",
+        type: "work",
       },
       {
-        period: '2008 - 2015',
-        title: 'Öğretim Üyesi',
-        institution: 'Yakın Doğu Üniversitesi',
-        type: 'work'
+        period: "2008 - 2015",
+        title: "Öğretim Üyesi",
+        institution: "Yakın Doğu Üniversitesi",
+        type: "work",
       },
       {
-        period: '2005 - 2008',
-        title: 'Yan Dal Uzmanlık',
-        institution: 'Hacettepe Üniversitesi - Çocuk Alerji',
-        type: 'education'
+        period: "2005 - 2008",
+        title: "Yan Dal Uzmanlık",
+        institution: "Hacettepe Üniversitesi - Çocuk Alerji",
+        type: "education",
       },
       {
-        period: '2000 - 2004',
-        title: 'Tıpta Uzmanlık',
-        institution: 'Gazi Üniversitesi - Çocuk Sağlığı',
-        type: 'education'
+        period: "2000 - 2004",
+        title: "Tıpta Uzmanlık",
+        institution: "Gazi Üniversitesi - Çocuk Sağlığı",
+        type: "education",
       },
       {
-        period: '1994 - 2000',
-        title: 'Tıp Eğitimi',
-        institution: 'Hacettepe Üniversitesi Tıp Fakültesi',
-        type: 'education'
-      }
-    ]
+        period: "1994 - 2000",
+        title: "Tıp Eğitimi",
+        institution: "Hacettepe Üniversitesi Tıp Fakültesi",
+        type: "education",
+      },
+    ],
   },
+
   {
-    id: '2',
-    slug: 'prof-dr-arzu-babayigit',
-    name: 'Arzu Babayiğit',
-    title: 'Prof. Dr.',
-    fullTitle: 'Profesör Doktor',
-    specialty: 'Çocuk Alerji ve İmmünoloji',
-    fullSpecialty: 'Çocuk Sağlığı, Astım ve İmmünoloji Uzmanı',
+    id: "2",
+    slug: "prof-dr-arzu-babayigit",
+    name: "Arzu Babayiğit",
+    title: "Prof. Dr.",
+    fullTitle: "Profesör Doktor",
+    specialty: "Çocuk Alerji ve İmmünoloji",
+    fullSpecialty: "Çocuk Sağlığı, Astım ve İmmünoloji Uzmanı",
     rating: 5,
     reviewCount: 95,
-    image: '/images/doctors/arzu.jpg',
+    image: "/images/doctors/arzu.jpg",
     yearsOfExperience: 25,
-    education: 'İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi',
-    expertise: 'Alerjik Hastalıklar',
-    languages: ['Türkçe', 'İngilizce', 'Almanca'],
-    location: 'Girne, KKTC',
+    education: "İstanbul Üniversitesi Cerrahpaşa Tıp Fakültesi",
+    expertise: "Alerjik Hastalıklar",
+    languages: ["Türkçe", "İngilizce", "Almanca"],
+    location: "Girne, KKTC",
     about: [
       "Prof. Dr. Arzu Babayiğit, çocuk immünolojisi ve alerji hastalıkları konusunda uluslararası deneyime sahip öncü bir akademisyendir. Özellikle astım tedavisinde geliştirdiği yaklaşımlar ile tanınmaktadır.",
       "Klinik pratiğinde, kanıta dayalı tıp uygulamalarını hasta konforu ile birleştirerek, kronik alerjik hastalıkların yönetiminde ailelere kapsamlı destek sağlamaktadır.",
-      "Akademik kariyeri boyunca sayısız makale yayınlamış ve birçok genç hekimin yetişmesine katkıda bulunmuştur."
+      "Akademik kariyeri boyunca sayısız makale yayınlamış ve birçok genç hekimin yetişmesine katkıda bulunmuştur.",
     ],
     specialties: [
       "Kronik Öksürük",
@@ -107,55 +109,56 @@ export const doctors: Doctor[] = [
       "Anafilaksi Yönetimi",
       "Solunum Fonksiyon Testleri",
       "Alerji Deri Testleri",
-      "İmmünoterapi (Aşı Tedavisi)"
+      "İmmünoterapi (Aşı Tedavisi)",
     ],
     timeline: [
       {
-        period: '2023 - Günümüz',
-        title: 'Çocuk Alerji ve İmmünoloji Uzmanı',
-        institution: 'Medexperts Healthcare',
-        type: 'work'
+        period: "2023 - Günümüz",
+        title: "Çocuk Alerji ve İmmünoloji Uzmanı",
+        institution: "Medexperts Healthcare",
+        type: "work",
       },
       {
-        period: '2010 - 2023',
-        title: 'Anabilim Dalı Başkanı',
-        institution: 'Mersin Üniversitesi Tıp Fakültesi',
-        type: 'work'
+        period: "2010 - 2023",
+        title: "Anabilim Dalı Başkanı",
+        institution: "Mersin Üniversitesi Tıp Fakültesi",
+        type: "work",
       },
       {
-        period: '2004 - 2008',
-        title: 'Yan Dal İhtisası',
-        institution: 'Hacettepe Üniversitesi',
-        type: 'education'
+        period: "2004 - 2008",
+        title: "Yan Dal İhtisası",
+        institution: "Hacettepe Üniversitesi",
+        type: "education",
       },
       {
-        period: '1998 - 2004',
-        title: 'Tıp Eğitimi',
-        institution: 'İstanbul Üniversitesi Cerrahpaşa',
-        type: 'education'
-      }
-    ]
+        period: "1998 - 2004",
+        title: "Tıp Eğitimi",
+        institution: "İstanbul Üniversitesi Cerrahpaşa",
+        type: "education",
+      },
+    ],
   },
+
   {
-    id: '3',
-    slug: 'doc-dr-senem-ertugrul-mut',
-    name: 'Senem Ertuğrul Mut',
-    title: 'Doç. Dr.',
-    fullTitle: 'Doçent Doktor',
-    specialty: 'Nöroloji',
-    fullSpecialty: 'Nöroloji & Medikal Estetik Uzmanı',
+    id: "3",
+    slug: "doc-dr-senem-ertugrul-mut",
+    name: "Senem Ertuğrul Mut",
+    title: "Doç. Dr.",
+    fullTitle: "Doçent Doktor",
+    specialty: "Nöroloji",
+    fullSpecialty: "Nöroloji & Medikal Estetik Uzmanı",
     rating: 4.9,
     reviewCount: 84,
-    image: '/images/doctors/senem.jpg',
+    image: "/images/doctors/senem.jpg",
     yearsOfExperience: 18,
-    education: 'Ege Üniversitesi Tıp Fakültesi',
-    expertise: 'Nöroloji ve Estetik',
-    languages: ['Türkçe', 'İngilizce'],
-    location: 'Girne, KKTC',
+    education: "Ege Üniversitesi Tıp Fakültesi",
+    expertise: "Nöroloji ve Estetik",
+    languages: ["Türkçe", "İngilizce"],
+    location: "Girne, KKTC",
     about: [
       "Doç. Dr. Senem Ertuğrul Mut, nörolojik hastalıkların tanı ve tedavisindeki uzmanlığını, medikal estetik alanındaki yenilikçi uygulamalarla birleştiren çok yönlü bir hekimdir.",
       "Migren tedavisi, botoks uygulamaları ve nöropatik ağrı yönetimi konularında özel çalışmaları bulunmaktadır. Estetik nöroloji alanında yüz gençleştirme ve asimetri düzeltme işlemlerini başarıyla uygulamaktadır.",
-      "Hem klinik nöroloji hem de kozmetik prosedürlerdeki hassas yaklaşımı ile hastalarına bütüncül bir hizmet sunmaktadır."
+      "Hem klinik nöroloji hem de kozmetik prosedürlerdeki hassas yaklaşımı ile hastalarına bütüncül bir hizmet sunmaktadır.",
     ],
     specialties: [
       "Migren Botoksu",
@@ -163,33 +166,33 @@ export const doctors: Doctor[] = [
       "Baş Ağrısı Yönetimi",
       "Nöropatik Ağrı",
       "Mezoterapi",
-      "Gençlik Aşısı"
+      "Gençlik Aşısı",
     ],
     timeline: [
       {
-        period: '2021 - Günümüz',
-        title: 'Nöroloji & Estetik Uzmanı',
-        institution: 'Medexperts Healthcare',
-        type: 'work'
+        period: "2021 - Günümüz",
+        title: "Nöroloji & Estetik Uzmanı",
+        institution: "Medexperts Healthcare",
+        type: "work",
       },
       {
-        period: '2014 - 2021',
-        title: 'Nöroloji Uzmanı',
-        institution: 'Lefkoşa Dr. Burhan Nalbantoğlu Hastanesi',
-        type: 'work'
+        period: "2014 - 2021",
+        title: "Nöroloji Uzmanı",
+        institution: "Lefkoşa Dr. Burhan Nalbantoğlu Hastanesi",
+        type: "work",
       },
       {
-        period: '2009 - 2014',
-        title: 'Uzmanlık Eğitimi',
-        institution: 'Bakırköy Ruh ve Sinir Hastalıkları Hastanesi',
-        type: 'education'
+        period: "2009 - 2014",
+        title: "Uzmanlık Eğitimi",
+        institution: "Bakırköy Ruh ve Sinir Hastalıkları Hastanesi",
+        type: "education",
       },
       {
-        period: '2002 - 2008',
-        title: 'Tıp Eğitimi',
-        institution: 'Ege Üniversitesi',
-        type: 'education'
-      }
-    ]
-  }
+        period: "2002 - 2008",
+        title: "Tıp Eğitimi",
+        institution: "Ege Üniversitesi",
+        type: "education",
+      },
+    ],
+  },
 ];
