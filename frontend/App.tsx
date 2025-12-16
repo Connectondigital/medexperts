@@ -1,23 +1,24 @@
-import React from 'react';
-import { HashRouter as Router, Routes, Route, ScrollRestoration } from 'react-router-dom';
-import { Layout } from './components/Layout';
-import DoctorList from './pages/DoctorList';
-import DoctorDetail from './pages/DoctorDetail';
+import React, { useEffect } from "react";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 
-// ScrollToTop component to handle scrolling on route change
-const ScrollToTop = () => {
-    const { pathname } = React.useMemo(() => window.location, []);
-    
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-    }, [pathname]);
+import { Layout } from "./components/Layout";
+import DoctorList from "./pages/DoctorList";
+import DoctorDetail from "./pages/DoctorDetail";
 
-    return null;
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, [pathname]);
+
+  return null;
 }
 
 const App: React.FC = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<DoctorList />} />
